@@ -1,0 +1,626 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "administrator": [
+    {
+      "id": 1,
+      "reference": "1111-aaaa-cccc",
+      "name": "TOM TIM",
+      "username": "adminstrator",
+      "tel": "123456",
+      "email": "abcd@qq.com",
+      "jurisdiction": "No"
+    },
+    {
+      "id": 2,
+      "reference": "1111-aaaa-cccc",
+      "name": "TOM TIM",
+      "username": "adminstrator",
+      "tel": "12345678",
+      "email": "abcd@qq.com",
+      "jurisdiction": "No"
+    },
+    {
+      "reference": "1111-aaaa-cccc",
+      "name": "TOM TIM",
+      "username": "administrator",
+      "tel": "12345678",
+      "email": "1111@qq.com",
+      "jurisdiction": "No",
+      "id": 3
+    },
+    {
+      "name": "TOM TIM",
+      "username": "admins",
+      "tel": "2312313",
+      "email": "sxaxs@qq.com",
+      "jurisdiction": "No",
+      "id": 4,
+      "reference": "1111-aaaa-bbb31"
+    }
+  ],
+  "supplierpersonnel": [
+    {
+      "id": 1,
+      "reference": "1111-aaaa-cccc",
+      "name": "TOM TIM",
+      "username": "adminstrator",
+      "tel": "1234",
+      "email": "abcd@qq.com",
+      "jurisdiction": "No"
+    },
+    {
+      "name": "TOM TIM",
+      "username": "admins",
+      "tel": "1234564613",
+      "email": "dsca@qq.com",
+      "jurisdiction": "No",
+      "id": 2,
+      "reference": "1111-aaaa-bbb11"
+    }
+  ],
+  "supplieradministrator": [
+    {
+      "id": 1,
+      "reference": "1111-aaaa-cccc",
+      "name": "TOM TIM",
+      "username": "adminstrator",
+      "tel": "1234",
+      "email": "abcd@qq.com",
+      "jurisdiction": "No"
+    }
+  ],
+  "appThemeManagement": [
+    {
+      "id": 1,
+      "reference": "1111-aaaa-bbb11",
+      "name": "theme one",
+      "remark": "test",
+      "backgroundcolor": "#001529",
+      "activecolor": "#007bff"
+    }
+  ],
+  "QRCode": [
+    {
+      "pramStr": [
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "6021c8e6-1cd1-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "a40c8420-1cd6-11eb-a444-000d3aa2d63e"
+                }
+              ]
+            },
+            {
+              "BuildingReferId": "55aaa68c-1cd1-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "89d80f7b-1cd1-11eb-a444-000d3aa2d63e"
+                },
+                {
+                  "MachineReferId": "7982eb78-1cd1-11eb-a444-000d3aa2d63e"
+                }
+              ]
+            }
+          ],
+          "UserReferId": "123456",
+          "EstateReferId": "e6d4585e-1cd0-11eb-a444-000d3aa2d63e"
+        },
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "d4449892-1cbd-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "ede41e00-1cbd-11eb-a444-000d3aa2d63e"
+                },
+                {
+                  "MachineReferId": "e5fda962-1cbd-11eb-a444-000d3aa2d63e"
+                }
+              ]
+            }
+          ],
+          "UserReferId": "123456",
+          "EstateReferId": "73ee9a97-1aac-11eb-a444-000d3aa2d63e"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "pramStr": [
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "2a2cfa8e-1dd8-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "840c5345-1dd8-11eb-a444-000d3aa2d63e"
+                },
+                {
+                  "MachineReferId": "83f0ad31-1dd8-11eb-a444-000d3aa2d63e"
+                },
+                {
+                  "MachineReferId": "83b63684-1dd8-11eb-a444-000d3aa2d63e"
+                }
+              ]
+            }
+          ],
+          "UserReferId": "123456",
+          "EstateReferId": "a09804f7-1dd7-11eb-a444-000d3aa2d63e"
+        },
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "6021c8e6-1cd1-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "a40c8420-1cd6-11eb-a444-000d3aa2d63e"
+                }
+              ]
+            },
+            {
+              "BuildingReferId": "55aaa68c-1cd1-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "89d80f7b-1cd1-11eb-a444-000d3aa2d63e"
+                }
+              ]
+            }
+          ],
+          "UserReferId": "123456",
+          "EstateReferId": "e6d4585e-1cd0-11eb-a444-000d3aa2d63e"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "pramStr": [],
+      "id": 3
+    },
+    {
+      "pramStr": [],
+      "id": 4
+    },
+    {
+      "pramStr": [
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "2a2cfa8e-1dd8-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "840c5345-1dd8-11eb-a444-000d3aa2d63e"
+                }
+              ]
+            }
+          ],
+          "UserReferId": "123456",
+          "EstateReferId": "a09804f7-1dd7-11eb-a444-000d3aa2d63e"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "pramStr": [
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "6021c8e6-1cd1-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "a40c8420-1cd6-11eb-a444-000d3aa2d63e"
+                }
+              ]
+            }
+          ],
+          "UserReferId": "123456",
+          "EstateReferId": "e6d4585e-1cd0-11eb-a444-000d3aa2d63e"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "pramStr": [
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "55aaa68c-1cd1-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "89d80f7b-1cd1-11eb-a444-000d3aa2d63e"
+                }
+              ]
+            }
+          ],
+          "UserReferId": "123456",
+          "EstateReferId": "e6d4585e-1cd0-11eb-a444-000d3aa2d63e"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "pramStr": [
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "55aaa68c-1cd1-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "89d80f7b-1cd1-11eb-a444-000d3aa2d63e"
+                }
+              ]
+            }
+          ],
+          "UserReferId": "123456",
+          "EstateReferId": "e6d4585e-1cd0-11eb-a444-000d3aa2d63e"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "pramStr": [
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "6021c8e6-1cd1-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "a40c8420-1cd6-11eb-a444-000d3aa2d63e"
+                }
+              ]
+            }
+          ],
+          "UserReferId": "123456",
+          "EstateReferId": "e6d4585e-1cd0-11eb-a444-000d3aa2d63e"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "pramStr": [
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "55aaa68c-1cd1-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "89d80f7b-1cd1-11eb-a444-000d3aa2d63e"
+                }
+              ]
+            }
+          ],
+          "UserReferId": "9d24d2a9-839c-11ea-ad58-000d3aa2d63e",
+          "EstateReferId": "e6d4585e-1cd0-11eb-a444-000d3aa2d63e"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "pramStr": [
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "6021c8e6-1cd1-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "a40c8420-1cd6-11eb-a444-000d3aa2d63e"
+                }
+              ]
+            }
+          ],
+          "UserReferId": "9d24d2a9-839c-11ea-ad58-000d3aa2d63e",
+          "EstateReferId": "e6d4585e-1cd0-11eb-a444-000d3aa2d63e"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "pramStr": {
+        "BuildingReferIds": [
+          {
+            "BuildingReferId": "3fd133d6-1e3c-11eb-a444-000d3aa2d63e",
+            "MachineReferIds": [
+              {
+                "MachineReferId": "8f63ed6b-1e3e-11eb-a444-000d3aa2d63e",
+                "ButtonRefIds": [
+                  {
+                    "ButtonReferId": "6103f651-1f31-11eb-a444-000d3aa2d63e"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "UserReferId": "f9fe1dd6-7259-11ea-ad58-000d3aa2d63e",
+        "EstateReferId": "b1cceefd-1dd7-11eb-a444-000d3aa2d63e"
+      },
+      "id": 12
+    },
+    {
+      "pramStr": {
+        "BuildingReferIds": [
+          {
+            "BuildingReferId": "3fd133d6-1e3c-11eb-a444-000d3aa2d63e",
+            "MachineReferIds": [
+              {
+                "MachineReferId": "8f63ed6b-1e3e-11eb-a444-000d3aa2d63e",
+                "ButtonRefIds": [
+                  {
+                    "ButtonReferId": "7645bfe8-1f31-11eb-a444-000d3aa2d63e"
+                  },
+                  {
+                    "ButtonReferId": "6103f651-1f31-11eb-a444-000d3aa2d63e"
+                  },
+                  {
+                    "ButtonReferId": "4695f4ce-1f19-11eb-a444-000d3aa2d63e"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "UserReferId": "f9fe1dd6-7259-11ea-ad58-000d3aa2d63e",
+        "EstateReferId": "b1cceefd-1dd7-11eb-a444-000d3aa2d63e"
+      },
+      "id": 13
+    },
+    {
+      "pramStr": [
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "5bb78eaf-1f35-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "6f43a27f-1f35-11eb-a444-000d3aa2d63e",
+                  "ButtonRefIds": [
+                    {
+                      "ButtonReferId": "dea8682d-1f35-11eb-a444-000d3aa2d63e"
+                    },
+                    {
+                      "ButtonReferId": "cd8cbfe6-1f35-11eb-a444-000d3aa2d63e"
+                    },
+                    {
+                      "ButtonReferId": "b4f97d92-1f35-11eb-a444-000d3aa2d63e"
+                    },
+                    {
+                      "ButtonReferId": "8c12b72f-1f35-11eb-a444-000d3aa2d63e"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "UserReferId": "f9fe1dd6-7259-11ea-ad58-000d3aa2d63e",
+          "EstateReferId": "479070ab-1f12-11eb-a444-000d3aa2d63e"
+        }
+      ],
+      "id": 14
+    },
+    {
+      "pramStr": [
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "5bb78eaf-1f35-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "6f43a27f-1f35-11eb-a444-000d3aa2d63e",
+                  "ButtonRefIds": [
+                    {
+                      "ButtonReferId": "dea8682d-1f35-11eb-a444-000d3aa2d63e"
+                    },
+                    {
+                      "ButtonReferId": "cd8cbfe6-1f35-11eb-a444-000d3aa2d63e"
+                    },
+                    {
+                      "ButtonReferId": "b4f97d92-1f35-11eb-a444-000d3aa2d63e"
+                    },
+                    {
+                      "ButtonReferId": "8c12b72f-1f35-11eb-a444-000d3aa2d63e"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "UserReferId": "f9fe1dd6-7259-11ea-ad58-000d3aa2d63e",
+          "EstateReferId": "479070ab-1f12-11eb-a444-000d3aa2d63e"
+        }
+      ],
+      "id": 15
+    },
+    {
+      "pramStr": [
+        {
+          "BuildingReferIds": [
+            {
+              "BuildingReferId": "5bb78eaf-1f35-11eb-a444-000d3aa2d63e",
+              "MachineReferIds": [
+                {
+                  "MachineReferId": "6f43a27f-1f35-11eb-a444-000d3aa2d63e",
+                  "ButtonRefIds": [
+                    {
+                      "ButtonReferId": "cd8cbfe6-1f35-11eb-a444-000d3aa2d63e"
+                    },
+                    {
+                      "ButtonReferId": "8c12b72f-1f35-11eb-a444-000d3aa2d63e"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "UserReferId": "f9fe1dd6-7259-11ea-ad58-000d3aa2d63e",
+          "EstateReferId": "479070ab-1f12-11eb-a444-000d3aa2d63e"
+        }
+      ],
+      "id": 16
+    }
+  ],
+  "test": [
+    {
+      "id": 20,
+      "reference": "fe925f58-2019-11eb-ab63-9c5a440fce47",
+      "name": "1",
+      "name_en": "1",
+      "designation": "1",
+      "output": 1,
+      "remark": "1",
+      "machine": {
+        "id": 1,
+        "reference": "4fe93cfb-1511-11eb-9e44-9c5a440fce47",
+        "name": "1号梯",
+        "name_en": "en",
+        "building": {
+          "id": 14,
+          "reference": "154s5d1f5e4f15s1d5f4ew",
+          "name": "九龙城",
+          "name_en": "number 9",
+          "realestate": {
+            "id": 3,
+            "reference": "31ccfa8c-1832-11eb-bd66-9c5a440fce47",
+            "name": "沙田第一城",
+            "name_en": "city one shatian",
+            "address": "address",
+            "remark": "testremark",
+            "category": {
+              "id": 20,
+              "reference": "faa3a276-82e7-11ea-ad58-000d3aa2d63e",
+              "parent": {
+                "id": 3,
+                "reference": "70fb3bd4-82e7-11ea-ad58-000d3aa2d63e",
+                "name": "Watches",
+                "active": 1,
+                "made": 1587374113000
+              },
+              "name": "Women’s",
+              "active": 1,
+              "made": 1587374344000
+            },
+            "made": 1604057478000,
+            "revised": 1604057478000
+          },
+          "remark": "22",
+          "made": 1604058845000,
+          "revised": 1604465202000
+        },
+        "dev": {
+          "id": 1,
+          "reference": "2b7a7ca9-1511-11eb-9e44-9c5a440fce47",
+          "sn": "05389988361",
+          "mac": "e0:12:20:20:78:34",
+          "ekey": "4167947bd2fc693aa7bf68f317a9eb4c",
+          "type": 2,
+          "model": {
+            "id": 2,
+            "reference": "12a2a3e1-1699-11eb-b464-9c5a440fce47",
+            "name": "dev名字2",
+            "enable": 1,
+            "made": 1603613226000,
+            "revised": 1603714781000
+          },
+          "made": 1604650086000,
+          "revised": 1604650086000,
+          "purged": 1604650086000
+        },
+        "remark": "备注",
+        "made": 1603444966000,
+        "revised": 1604452460000
+      },
+      "realextate": "31ccfa8c-1832-11eb-bd66-9c5a440fce47",
+      "building": ""
+    }
+  ],
+  "test1": [
+    {
+      "id": 20,
+      "reference": "",
+      "name": "",
+      "name_en": "",
+      "designation": "",
+      "output": "",
+      "remark": "",
+      "machine": {
+        "id": 1,
+        "reference": "4fe93cfb-1511-11eb-9e44-9c5a440fce47",
+        "name": "1号梯",
+        "name_en": "en",
+        "building": {
+          "id": 14,
+          "reference": "154s5d1f5e4f15s1d5f4ew",
+          "name": "九龙城",
+          "name_en": "number 9",
+          "realestate": {
+            "id": 3,
+            "reference": "31ccfa8c-1832-11eb-bd66-9c5a440fce47",
+            "name": "沙田第一城",
+            "name_en": "city one shatian",
+            "address": "address",
+            "remark": "testremark",
+            "category": {
+              "id": 20,
+              "reference": "faa3a276-82e7-11ea-ad58-000d3aa2d63e",
+              "parent": {
+                "id": 3,
+                "reference": "70fb3bd4-82e7-11ea-ad58-000d3aa2d63e",
+                "name": "Watches",
+                "active": 1,
+                "made": 1587374113000
+              },
+              "name": "Women’s",
+              "active": 1,
+              "made": 1587374344000
+            },
+            "made": 1604057478000,
+            "revised": 1604057478000
+          },
+          "remark": "22",
+          "made": 1604058845000,
+          "revised": 1604465202000
+        },
+        "dev": {
+          "id": 1,
+          "reference": "2b7a7ca9-1511-11eb-9e44-9c5a440fce47",
+          "sn": "05389988361",
+          "mac": "e0:12:20:20:78:34",
+          "ekey": "4167947bd2fc693aa7bf68f317a9eb4c",
+          "type": 2,
+          "model": {
+            "id": 2,
+            "reference": "12a2a3e1-1699-11eb-b464-9c5a440fce47",
+            "name": "dev名字2",
+            "enable": 1,
+            "made": 1603613226000,
+            "revised": 1603714781000
+          },
+          "made": 1604650086000,
+          "revised": 1604650086000,
+          "purged": 1604650086000
+        },
+        "remark": "备注",
+        "made": 1603444966000,
+        "revised": 1604452460000
+      },
+      "realextate": "31ccfa8c-1832-11eb-bd66-9c5a440fce47",
+      "building": "154s5d1f5e4f15s1d5f4ew"
+    }
+  ]
+}

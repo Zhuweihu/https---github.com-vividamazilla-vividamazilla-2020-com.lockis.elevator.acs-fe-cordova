@@ -1,0 +1,56 @@
+@import '@/assets/styles/mixins.scss';
+
+.dropdown {
+  padding-right: 15px;
+  position: relative;
+  cursor: pointer;
+  .head_portrait{
+    position: relative;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+
+  }
+  .username{
+    float: right;
+    position: relative;
+    right: 20px;
+    bottom: 25px;
+    font-size: 16px;
+  }
+  &::after {
+    color: $gray;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -2px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: '';
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    @include transition-slow();
+  }
+
+  &:hover {
+    color: $blue;
+
+    &::after {
+      color: $gray-darken;
+    }
+  }
+}
+
+.avatar {
+  background-color: $gray-border;
+}
+
+.menuIcon {
+  margin-right: rem(5);
+}
