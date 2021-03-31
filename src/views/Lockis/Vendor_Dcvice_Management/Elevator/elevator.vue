@@ -162,6 +162,22 @@ export default {
           updatetime:"2017/05/02 23:52",
         },
       ],
+      form: {
+        id: "",
+        reference: "",
+        name: "",
+        name_en: "",
+        remark: "",
+        building:{},
+        dev: {}
+      },
+      res: {},
+      realestateOptions: [],
+      buildingOptions: [],
+      realestateValue: "",
+      buildingValue: "",
+      devOptions: [],
+      devValue: "",
     };
   },
 
@@ -170,7 +186,25 @@ export default {
   },
 
   methods:{
-    
+     expensecreate() {
+      // 新增按钮触发函数
+      this._data.isNew = true;
+      this._data.res = {};
+      this.form = {
+        id: "",
+        reference: "",
+        name: "",
+        name_en: "",
+        remark: "",
+        building:{},
+        dev: {}
+      };
+      this.realestateValue = ''
+      this.buildingValue = ''
+      this.devValue = ''
+      // this._data.dialogFormVisible = true;
+      this.$router.push('createEle')
+    },
   }
 };
 </script>

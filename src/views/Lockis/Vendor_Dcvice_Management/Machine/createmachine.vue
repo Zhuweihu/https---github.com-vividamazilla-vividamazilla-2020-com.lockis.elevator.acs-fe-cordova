@@ -164,6 +164,7 @@ export default {
     changeRealestate() {
       this.buildingValue = "";
       this.form.building = {};
+      console.log(this.form.building = {})
       for (let i = 0; i < this.realestateOptions.length; i++) {
         if (this.realestateOptions[i].id === this.realestateValue) {
           this.$api.get(
@@ -203,10 +204,12 @@ export default {
           if (uuid != "" && uuid != undefined) {
             this.loading = true;
             this.$api.put("/lksKMachine/update", this.form, (r) => {
+              console.log(this.form)
               history.back(-1);
             });
           } else {
             this.$api.post("/lksKMachine/save", this.form, (r) => {
+              console.log(this.form)
               history.back(-1);
             });
           }
